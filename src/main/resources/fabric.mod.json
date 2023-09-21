@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "stairchair",
+  "version": "${version}",
+  "name": "StairChair",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/1131245618/StairChair"
+  },
+  "license": "MIT",
+  "icon": "assets/stairchair/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "pers.zlc.stairchair.StairChair"
+    ]
+  },
+  "mixins": [
+    "stairchair.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

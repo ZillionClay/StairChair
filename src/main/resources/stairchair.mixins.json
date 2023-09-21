@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pers.zlc.stairchair.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MinecraftServerMixin",
+    "StairsBlockMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+    "MinecraftServerMixin",
+    "StairsBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
